@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Home />
+    <Generator />
   </div>
 </template>
 
 <script>
-  import Home from './components/Home.vue';
+  import Generator from './components/Generator.vue';
   export default {
     name: 'App',
     components: {
-      Home,
+      Generator,
     },
   };
 </script>

@@ -1,4 +1,8 @@
-# random quote generator vue
+# Random Quote Generator Vue
+
+A website that randomly generates a quote and a background image on load.
+
+The purpose of this project was to play around with axios.
 
 ## Project setup
 

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="text">
       <h1 class="quote">{{ quote }}</h1>
-      <h2 class="author">- {{ author }}</h2>
+      <h2 class="author" v-if="author != null">- {{ author }}</h2>
     </div>
     <div class="icons">
       <a href="https://github.com/Hougesen"> <i class="fab fa-github-square fa-2x"></i> </a>
@@ -12,7 +12,7 @@
 
 <script>
   export default {
-    name: 'Home',
+    name: 'Generator',
     data() {
       return {
         quote: '',
